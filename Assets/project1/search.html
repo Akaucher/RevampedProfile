@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/80eed1293f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Double meanings</title>
+</head>
+<body>
+    <div class="container">
+        <section id="search-main-header" class="hero is-dark">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 id="search-main-title" class="title has-text-centered">
+                        DoubleMeaning Dictionary <i class="fas fa-smile-wink"></i>
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <div id="input-area" class="field is-grouped">
+            <div class="control is-expanded">
+                <input id="searched-word" class="input" type="text" placeholder="Search">
+            </div>
+            <div class="control">
+                <a id="search-button" class="button is-info">Search</a>
+            </div>
+        </div>
+        <article class="message">
+            <div class="message-header">
+                <p>Merriam-Webster Definition</p>
+            </div>
+            <div id="mw-area" class="message-body">
+                <div id="mw-definition"></div>
+                <div id="mw-example"></div>
+            </div>
+        </article>
+        <article class="message">
+            <div class="message-header">
+                <p>Urban Dictionary Definition</p>
+            </div>
+            <div id="ud-area" class="message-body">
+                <div id="ud-definition"></div>
+                <div id="ud-example"></div>
+            </div>
+        </article>
+        <article class="message">
+            <div class="message-header">
+                <p>Related Words</p>
+            </div>
+            <div id="related-words-area" class="message-body">
+                <div id="related-words"></div>
+            </div>
+        </article>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="assets/js/UDapi.js"></script>
+    <script src="assets/js/normalLookup.js"></script>
+</body>
+</html>

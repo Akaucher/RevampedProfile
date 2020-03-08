@@ -1,0 +1,80 @@
+body {
+    background: #f6f6f6;
+    height: 100vh;
+    padding: 0 2rem;
+    /* background: -webkit-linear-gradient(left, rgba(9, 38, 66, 0.95), rgba(15, 53, 92, 0.95)); */
+    background: #333;
+}
+
+#logo{
+    font-size: 100px;
+    /* color: rgba(17, 108, 194, 0.95); */
+    color: rgba(41, 137, 226, 0.95);
+}
+
+#dictionary-button:hover{
+    background: rgba(41, 137, 226, 0.95);
+    color: #f6f6f6;
+    border: none;
+
+}
+
+#index-main{
+    padding-top: 70px;
+    color: #f6f6f6;
+    height: 100%;
+    min-width: 100%;
+}
+.white-text{
+    color: #f6f6f6;
+}
+
+#search-main-title{
+    color: #f6f6f6;
+}
+
+#search-main-header {
+    border-radius: 10px;
+    margin-bottom: .8rem;
+    background: transparent;
+    /* background: rgba(17, 108, 194, 0.95); */
+    /* background-color: rgba(12, 83, 150, 0.95); */
+}
+
+#input-area{
+    padding: 0 5rem;
+}
+
+#mw-definition, #ud-definition{
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding-bottom: 10px;
+}
+
+#mw-example, #ud-example{
+    padding-top: 10px;
+}
+
+#mw-area, #ud-area, #related-words-area{
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    background: #f6f6f6;
+}
+
+.message-header{
+    /* background-color: rgba(12, 83, 150, 0.95); */
+    background-color: rgba(12, 67, 119, 0.95);
+}
+
+/* .message{
+    display: none;
+} */
+
+@media (max-width: 414px){
+    #input-area{
+        padding: 0;
+    }
+    .hero-body{
+        padding: .5rem;
+    }
+}

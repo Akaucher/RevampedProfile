@@ -1,0 +1,1 @@
+#uploaded first commit of initial work, let commented code in for possible better user interface in the future. 11.16.2019
